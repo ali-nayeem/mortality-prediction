@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ecrc-paper-v0.6.2.aux
+The style file: elsarticle-num.bst
+Database file #1: mybibfile.bib
+Warning--empty pages in Ghassemi2015
+Warning--empty pages in Jin2018
+Warning--empty pages in Yoon2016
+Warning--empty pages in Suresh2017
+Warning--empty pages in Bhattacharya2017
+Warning--empty pages in Nguyen2017
+Warning--empty pages in Johnson3rd2018
+Warning--empty pages in Zahid2018
+Warning--empty pages in Ho2019
+Warning--empty pages in Gennatas2019
+Warning--empty pages in Torres2019
+Warning--empty pages in mehedy-masud:2017:fvc
+Warning--empty pages in mehedy-masud:2018:frmwrk
+Warning--empty pages in Grnarova2016
+You've used 51 entries,
+            2937 wiz_defined-function locations,
+            1062 strings with 19343 characters,
+and the built_in function-call counts, 18336 in all, are:
+= -- 1606
+> -- 789
+< -- 12
++ -- 297
+- -- 246
+* -- 1486
+:= -- 2495
+add.period$ -- 80
+call.type$ -- 51
+change.case$ -- 51
+chr.to.int$ -- 0
+cite$ -- 65
+duplicate$ -- 602
+empty$ -- 2041
+format.name$ -- 295
+if$ -- 4723
+int.to.chr$ -- 0
+int.to.str$ -- 51
+missing$ -- 49
+newline$ -- 210
+num.names$ -- 49
+pop$ -- 388
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1118
+stack$ -- 0
+substring$ -- 760
+swap$ -- 197
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 14
+while$ -- 90
+width$ -- 53
+write$ -- 505
+(There were 14 warnings)

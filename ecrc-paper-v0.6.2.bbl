@@ -1,0 +1,384 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Mao}
+Y.~Mao, W.~Chen, Y.~Chen, C.~Lu, M.~Kollef, T.~Bailey,
+  \href{http://doi.acm.org/10.1145/2339530.2339709}{An integrated data mining
+  approach to real-time clinical monitoring and deterioration warning}, in:
+  Proceedings of the 18th ACM SIGKDD International Conference on Knowledge
+  Discovery and Data Mining, KDD '12, ACM, New York, NY, USA, 2012, pp.
+  1140--1148.
+\newblock \href {http://dx.doi.org/10.1145/2339530.2339709}
+  {\path{doi:10.1145/2339530.2339709}}.
+\newline\urlprefix\url{http://doi.acm.org/10.1145/2339530.2339709}
+
+\bibitem{Fialho}
+A.~Fialho, F.~Cismondi, S.~Vieira, S.~Reti, J.~Sousa, S.~Finkelstein,
+  \href{http://www.sciencedirect.com/science/article/pii/S0957417412008020}{Data
+  mining using clinical physiology at discharge to predict \{ICU\}
+  readmissions}, Expert Systems with Applications 39~(18) (2012) 13158--13165.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/j.eswa.2012.05.086}
+  {\path{doi:http://dx.doi.org/10.1016/j.eswa.2012.05.086}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0957417412008020}
+
+\bibitem{Baumgartner}
+B.~Baumgartner, K.~Rödel, A.~Knoll, A data mining approach to reduce the false
+  alarm rate of patient monitors., in: IEEE Eng Med Biol Soc., PubMed, 2012,
+  pp. 5935--8.
+
+\bibitem{Cheng}
+C.~W. Cheng, N.~Chanani, J.~Venugopalan, K.~Maher, M.~D. Wang, icuarm-an icu
+  clinical decision support system using association rule mining, IEEE Journal
+  of Translational Engineering in Health and Medicine 1 (2013)
+  4400110--4400110.
+\newblock \href {http://dx.doi.org/10.1109/JTEHM.2013.2290113}
+  {\path{doi:10.1109/JTEHM.2013.2290113}}.
+
+\bibitem{Ghassemi2015}
+M.~Ghassemi, A.~Pimentel, T.~Naumann, T.~Brennan, D.~A. Clifton, P.~Szolovits,
+  M.~Feng, A multivariate timeseries modeling approach to severity of illness
+  assessment and forecasting in icu with sparse, heterogeneous clinical data,
+  in: Proc Conf AAAI Artif Intell, 2015.
+
+\bibitem{Jin2018}
+M.~Jin, M.~T. Bahadori, A.~Colak, P.~Bhatia, B.~Celikkaya, R.~Bhakta,
+  S.~Senthivel, M.~Khalilia, D.~Navarro, B.~Zhang, T.~Doman, A.~Ravi, M.~Liger,
+  T.~Kass-hout, Improving hospital mortality prediction with medical named
+  entities and multimodal learning, in: arXiv:1811.12276 [cs.CL], 2018.
+
+\bibitem{Yoon2016}
+J.~Yoon, A.~M. Alaa, S.~Hu, M.~van~der Schaar, Forecasticu: A prognostic
+  decision support system for timely prediction of intensive care unit
+  admission, in: Proceedings of the 33rd International Conference on Machine
+  Learning, Vol.~4, New York, NY, USA, 2016.
+
+\bibitem{Johnson2017}
+A.~E.~W. Johnson, R.~G. Mark,
+  \href{https://www.ncbi.nlm.nih.gov/pubmed/29854167 994–1003}{Real-time
+  mortality prediction in the intensive care unit}, in: AMIA Annu Symp Proc,
+  2017, pp. 994--1003.
+\newline\urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/29854167 994–1003}
+
+\bibitem{Calvert2016}
+J.~Calvert, Q.~Mao, J.~L. Hoffman, M.~Jay, T.~Desautels, H.~Mohamadlou,
+  U.~Chettipally, R.~Das, Using electronic health record collected clinical
+  variables to predict medical intensive care unit mortality, Annals of
+  Medicine and Surgery 11~(C) (2016) 52e57.
+\newblock \href {http://dx.doi.org/10.1016/j.amsu.2016.09.002}
+  {\path{doi:10.1016/j.amsu.2016.09.002}}.
+
+\bibitem{Suresh2017}
+H.~Suresh, N.~Hunt, A.~Johnson, L.~A. Celi, P.~Szolovits, M.~Ghassemi, Clinical
+  intervention prediction and understanding with deep neural networks, in:
+  Proceedings of Machine Learning for Healthcare 2017, JMLR W\&C Track Volume
+  68, 2017.
+
+\bibitem{Bhattacharya2017}
+S.~Bhattacharya, V.~Rajan, H.~Shrivastava,
+  \href{https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14337}{Icu
+  mortality prediction: A classification algorithm for imbalanced datasets},
+  in: Proceedings of the Thirty-First AAAI Conference on Artificial
+  Intelligence, AAAI-17, 2017.
+\newline\urlprefix\url{https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14337}
+
+\bibitem{Xie2017}
+J.~Xie, B.~Su, C.~Li, K.~Lin, H.~Li, Y.~Hu, G.~Kong,
+  \href{http://jeccm.amegroups.com/article/view/3790}{A review of modeling
+  methods for predicting in-hospital mortality of patients in intensive care
+  unit}, Journal of Emergency and Critical Care Medicine 1~(8).
+\newline\urlprefix\url{http://jeccm.amegroups.com/article/view/3790}
+
+\bibitem{Awad2017}
+A.~Awad, M.~Bader-El-Den, J.~McNicholas, J.~Briggs,
+  \href{https://www.sciencedirect.com/science/article/pii/S1386505617303581}{Early
+  hospital mortality prediction of intensive care unit patients using an
+  ensemble learning approach}, International Journal of Medical Informatics 108
+  (2017) 185--195.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/j.ijmedinf.2017.10.002}
+  {\path{doi:https://doi.org/10.1016/j.ijmedinf.2017.10.002}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1386505617303581}
+
+\bibitem{Nguyen2017}
+P.~Nguyen, T.~Tran, S.~Venkatesh, \href{https://arxiv.org/abs/1707.05010}{Deep
+  learning to attend to risk in icu}, in: arXiv:1707.05010 [cs.LG], 2017.
+\newline\urlprefix\url{https://arxiv.org/abs/1707.05010}
+
+\bibitem{Zhang2017}
+Z.~Zhang, Y.~Hong, Development of a novel score for the prediction of hospital
+  mortality in patients with severe sepsis, Oncotarget 8~(30) (2017)
+  49637--49645.
+\newblock \href {http://dx.doi.org/10.18632/oncotarget.17870"}
+  {\path{doi:10.18632/oncotarget.17870"}}.
+
+\bibitem{Johnson2nd2017}
+A.~E.~W. Johnson, T.~J. Pollard, R.~G. Mark, Reproducibility in critical care:
+  a mortality prediction case study, in: Proceedings of Machine Learning for
+  Healthcare, Vol.~68, PMLR, 2017, pp. 361--376.
+
+\bibitem{Davoodi2018}
+R.~Davoodi, M.~H. Moradi,
+  \href{https://www.sciencedirect.com/science/article/pii/S1532046418300273}{Mortality
+  prediction in intensive care units (icus) using a deep rule-based fuzzy
+  classifier}, Journal of Biomedical Informatics 79 (2018) 48–59.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jbi.2018.02.008}
+  {\path{doi:https://doi.org/10.1016/j.jbi.2018.02.008}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1532046418300273}
+
+\bibitem{Sadeghi2018}
+R.~Sadeghi, T.~Banerjee, W.~Romine,
+  \href{https://www.sciencedirect.com/science/article/pii/S2352648318300357}{Early
+  hospital mortality prediction using vital signals}, Smart Health 9-10 (2018)
+  265--274.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.smhl.2018.07.001}
+  {\path{doi:https://doi.org/10.1016/j.smhl.2018.07.001}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352648318300357}
+
+\bibitem{Zheng2018}
+H.~Zheng, D.~Shi, Using a lstm-rnn based deep learning framework for icu
+  mortality prediction, in: Meng X., Li R., Wang K., Niu B., Wang X., Zhao G.
+  (eds) Web Information Systems and Applications. WISA 2018. Lecture Notes in
+  Computer Science, Vol. 11242, Springer, Cham, 2018, p. 60–67.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1007/978-3-030-02934-0_6}
+  {\path{doi:https://doi.org/10.1007/978-3-030-02934-0_6}}.
+
+\bibitem{Johnson3rd2018}
+A.~E.~W. Johnson, T.~J. Pollard, T.~Naumann,
+  \href{https://arxiv.org/abs/1812.02275}{Generalizability of predictive models
+  for intensive care unit patients}, in: arXiv:1812.02275 [cs.LG], 2018.
+\newline\urlprefix\url{https://arxiv.org/abs/1812.02275}
+
+\bibitem{Zahid2018}
+M.~A.~H. Zahid, J.~Lee, Mortality prediction with self normalizing neural
+  networks in intensive care unit patients, in: 2018 IEEE EMBS International
+  Conference on Biomedical \& Health Informatics (BHI), IEEE, Las Vegas,
+  Nevada, USA, 2018.
+\newblock \href {http://dx.doi.org/10.1109/BHI.2018.8333410}
+  {\path{doi:10.1109/BHI.2018.8333410}}.
+
+\bibitem{Purushotham2018}
+S.~Purushotham, C.~Meng, Z.~Che, Y.~Liu,
+  \href{https://www.sciencedirect.com/science/article/pii/S1532046418300716}{Benchmarking
+  deep learning models on large healthcare datasets}, Journal of Biomedical
+  Informatics 83 (2018) 112–134.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jbi.2018.04.007}
+  {\path{doi:https://doi.org/10.1016/j.jbi.2018.04.007}}.
+\newline\urlprefix\url{https://www.sciencedirect.com/science/article/pii/S1532046418300716}
+
+\bibitem{Meyer2018}
+A.~Meyer, D.~Zverinski, B.~Pfahringer, J.~Kempfert, T.~Kuehne, S.~H.
+  Sündermann, C.~Stamm, T.~Hofmann, V.~Falk, C.~Eickhoff, Machine learning for
+  real-time prediction of complications in critical care: a retrospective
+  study, Lancet Respir Med 6~(12) (2018) 905--914.
+\newblock \href {http://dx.doi.org/10.1016/S2213-2600(18)30300-X}
+  {\path{doi:10.1016/S2213-2600(18)30300-X}}.
+
+\bibitem{Hsieh2018}
+M.~H. Hsieh, M.~J. Hsieh, C.-M. Chen, C.-C. Hsieh, C.-M. Chao, C.-C. Lai,
+  Comparison of machine learning models for the prediction of mortality of
+  patients with unplanned extubation in intensive care units, Scientific
+  Reports 8 (2018) 17116.
+\newblock \href {http://dx.doi.org/10.1038/s41598-018-35582-2}
+  {\path{doi:10.1038/s41598-018-35582-2}}.
+
+\bibitem{Ho2019}
+L.~V. Ho, M.~D. Aczon, D.~Ledbetter, R.~Wetzel,
+  \href{https://arxiv.org/abs/1905.09865}{Interpreting a recurrent neural
+  network model for icu mortality using learned binary masks}, in:
+  arXiv:1905.09865 [cs.LG], 2019.
+\newline\urlprefix\url{https://arxiv.org/abs/1905.09865}
+
+\bibitem{Gennatas2019}
+E.~Gennatas, J.~Friedman, L.~Ungar, R.~Pirracchio, E.~Eaton, L.~Reichman,
+  Y.~Interian, C.~Simone, A.~Auerbach, E.~Delgado, M.~V. der Laan, T.~Solberg,
+  G.~Valdes, \href{https://arxiv.org/abs/1903.09731}{Expert-augmented machine
+  learning}, in: arXiv:1903.09731 [stat.ML], 2019.
+\newline\urlprefix\url{https://arxiv.org/abs/1903.09731}
+
+\bibitem{Torres2019}
+W.~Caicedo-Torres, J.~Gutierrez, \href{https://arxiv.org/abs/1901.08201}{Iseeu:
+  Visually interpretable deep learning for mortality prediction inside the
+  icu}, in: arXiv:1901.08201 [cs.LG], 2019.
+\newline\urlprefix\url{https://arxiv.org/abs/1901.08201}
+
+\bibitem{ZhengpingChe2016}
+Z.~Che, S.~Purushotham, R.~Khemani, Y.~Liu, Interpretable deep models for icu
+  outcome prediction, in: AMIA Annual Symposium Proceedings, 2016, pp.
+  371--380.
+
+\bibitem{Xiao2018}
+C.~Xiao, E.~Choi, J.~Sun, Opportunities and challenges in developing deep
+  learning models using electronic health records data: a systematic review,
+  Journal of the American Medical Informatics Association 25~(10) (2018)
+  1419–1428.
+\newblock \href {http://dx.doi.org/10.1093/jamia/ocy068}
+  {\path{doi:10.1093/jamia/ocy068}}.
+
+\bibitem{mehedy-masud:2017:fvc}
+M.~M. Masud, A.~R.~A. Harahsheh,
+  \href{https://ieeexplore.ieee.org/document/7841001}{Mortality prediction of
+  icu patients using lab test data by feature vector compaction \&
+  classification}, in: 2016 IEEE International Conference on Big Data (Big
+  Data), IEEE, Washington, DC, USA, 5-8 Dec. 2016.
+\newblock \href {http://dx.doi.org/10.1109/BigData.2016.7841001}
+  {\path{doi:10.1109/BigData.2016.7841001}}.
+\newline\urlprefix\url{https://ieeexplore.ieee.org/document/7841001}
+
+\bibitem{mehedy-masud:2018:frmwrk}
+M.~M. Masud, M.~Cheratta,
+  \href{https://aaai.org/ocs/index.php/WS/AAAIW18/paper/view/16622/15605}{A
+  framework for utilizing lab test results for clinical prediction of icu
+  patients}, in: Workshops at the Thirty-Second AAAI Conference on Artificial
+  Intelligence, AAAI Publications, 2018-06-20.
+\newline\urlprefix\url{https://aaai.org/ocs/index.php/WS/AAAIW18/paper/view/16622/15605}
+
+\bibitem{Darabi2018}
+H.~R. Darabi, D.~Tsinis, K.~Zecchini, W.~F.Whitcomb, A.~Liss, Forecasting
+  mortality risk for patients admitted to intensive care units using machine
+  learning, in: Procedia Computer Science, Vol. 140, 2018, p. 306–313.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.procs.2018.10.313}
+  {\path{doi:https://doi.org/10.1016/j.procs.2018.10.313}}.
+
+\bibitem{Lange2019}
+D.~W. de~Lange, S.~Brinkman, H.~Flaatten, A.~Boumendil, A.~Morandi, F.~H.
+  Andersen, A.~Artigas, G.~Bertolini, M.~Cecconi, S.~Christensen, L.~Faraldi,
+  J.~Fjølner, C.~Jung, B.~Marsh, R.~Moreno, S.~Oeyen, C.~A. Öhman, B.~B.
+  Pinto, A.~M. G.~A. de~Smet, I.~W. Soliman, W.~Szczeklik, A.~Valentin,
+  X.~Watson, T.~Zafeiridis, B.~Guidet, Cumulative prognostic score predicting
+  mortality in patients older than 80 years admitted to the icu, J Am Geriatr
+  Soc 67~(6) (2019) 1263--1267.
+\newblock \href {http://dx.doi.org/10.1111/jgs.15888}
+  {\path{doi:10.1111/jgs.15888}}.
+
+\bibitem{Herland}
+M.~Herland, T.~M. Khoshgoftaar, R.~Wald,
+  \href{http://dx.doi.org/10.1109/ICMLA.2013.163}{Survey of clinical data
+  mining applications on big data in health informatics}, in: Proceedings of
+  the 2013 12th International Conference on Machine Learning and Applications -
+  Volume 02, ICMLA '13, IEEE Computer Society, Washington, DC, USA, 2013, pp.
+  465--472.
+\newblock \href {http://dx.doi.org/10.1109/ICMLA.2013.163}
+  {\path{doi:10.1109/ICMLA.2013.163}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1109/ICMLA.2013.163}
+
+\bibitem{Cai:2016}
+X.~Cai, O.~Perez-Concha, E.~Coiera, F.~Martin-Sanchez, R.~Day, D.~Roffe,
+  B.~Gallego, Real-time prediction of mortality, readmission, and length of
+  stay using electronic health record data, Journal of the American Medical
+  Informatics Association 23~(3) (2016) 553–561.
+\newblock \href {http://dx.doi.org/10.1093/jamia/ocv110}
+  {\path{doi:10.1093/jamia/ocv110}}.
+
+\bibitem{MIMIC2}
+Mimic ii databas, \url{https://physionet.org/physiobank/database/mimic2cdb/}.
+
+\bibitem{MIMIC3}
+Mimic iii databas, \url{https://physionet.org/physiobank/database/mimic3cdb/}.
+
+\bibitem{Zahangir2019}
+M.~Z. Alam, M.~S. Rahman, M.~S. Rahman, A random forest based predictor for
+  medical data classification using feature ranking, Informatics in Medicine
+  Unlocked 15 (2019) 100180.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.imu.2019.100180}
+  {\path{doi:https://doi.org/10.1016/j.imu.2019.100180}}.
+
+\bibitem{Saifur20181st}
+M.~S. Rahman, M.~K. Rahman, M.~Kaykobad, M.~S. Rahman, isgpt: An optimized
+  model to identify sub-golgi protein types using svm and random forest based
+  feature selection, Artificial Intelligence in Medicine 84 (2018) 90--100.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/j.artmed.2017.11.003}
+  {\path{doi:https://doi.org/10.1016/j.artmed.2017.11.003}}.
+
+\bibitem{Saifur20182nd}
+M.~S. Rahman, S.~Shatabda, S.~Saha, M.~Kaykobad, M.~S. Rahman, Dpp-pseaac: A
+  dna-binding protein prediction model using chou’s general pseaac, Journal
+  of Theoretical Biology 452 (2018) 22--34.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jtbi.2018.05.006}
+  {\path{doi:https://doi.org/10.1016/j.jtbi.2018.05.006}}.
+
+\bibitem{Saifur2019}
+M.~S. Rahman, M.~K. Rahman, S.~Saha, M.~Kaykobad, M.~S. Rahman, Antigenic: An
+  improved prediction model of protective antigens, Artificial Intelligence in
+  Medicine 94 (2019) 28--41.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/j.artmed.2018.12.010}
+  {\path{doi:https://doi.org/10.1016/j.artmed.2018.12.010}}.
+
+\bibitem{Dash:1997}
+M.~Dash, H.~Liu,
+  \href{http://www.lsi.us.es/~riquelme/publicaciones/kes03.pdf}{Feature
+  selection for classification}, Intelligent Data Analysis 1~(1-4) (1997)
+  131--156.
+\newblock \href {http://dx.doi.org/10.1016/S1088-467X(97)00008-5}
+  {\path{doi:10.1016/S1088-467X(97)00008-5}}.
+\newline\urlprefix\url{http://www.lsi.us.es/~riquelme/publicaciones/kes03.pdf}
+
+\bibitem{Roberto:2003}
+R.~Ruiz, J.~C. Riquelme, J.~S. Aguilar-Ruiz,
+  \href{http://www.lsi.us.es/~riquelme/publicaciones/kes03.pdf}{Fast feature
+  ranking algorithm}, V. Palade, R.J. Howlett, and L.C. Jain (Eds.) KES
+  2003~(LNAI 2773) (2003) 325–331.
+\newline\urlprefix\url{http://www.lsi.us.es/~riquelme/publicaciones/kes03.pdf}
+
+\bibitem{Jasmina:2011}
+J.~Novakovic, P.~Strbac, D.~Bulatovic,
+  \href{http://elib.mi.sanu.ac.rs/files/journals/yjor/41/yujorn41p119\-135.pdf}{Toward
+  optimal feature selection using ranking methods and classification
+  algorithms}, Yugoslav Journal of Operations Research 21~(1).
+\newblock \href {http://dx.doi.org/10.2298/yjor1101119n}
+  {\path{doi:10.2298/yjor1101119n}}.
+\newline\urlprefix\url{http://elib.mi.sanu.ac.rs/files/journals/yjor/41/yujorn41p119\-135.pdf}
+
+\bibitem{Kamkar2015}
+I.~Kamkar, S.~K. Gupta, D.~Phung, S.~Venkatesh, Stable feature selection for
+  clinical prediction: Exploiting icd tree structure using tree-lasso, Journal
+  of Biomedical Informatics 53 (2015) 277–290.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jbi.2014.11.013}
+  {\path{doi:https://doi.org/10.1016/j.jbi.2014.11.013}}.
+
+\bibitem{Baalachandran2015}
+R.~Baalachandran, D.~Laroche, L.~Ghazala, G.~E. Carr, Predictors of mortality
+  in patients admitted to an intensive care unit with viral pneumonia, American
+  Journal of Respiratory and Critical Care Medicine 191:A1756.
+
+\bibitem{weka}
+E.~Frank, M.~A. Hall, I.~H. Witten, The {WEKA} workbench. online appendix for
+  data mining: Practical machine learning tools and techniques, Morgan Kaufmann
+  Fourth Edition.
+
+\bibitem{Fernandez2018}
+R.~Fernandez, S.~Cano, I.~Catalan, O.~Rubio, C.~Subira, J.~Masclans,
+  G.~Rognoni, L.~Ventura, C.~Macharete, L.~Winfield, , J.~M. Alcoverro, High
+  red blood cell distribution width as a marker of hospital mortality after icu
+  discharge: a cohort study, Journal of Intensive Care 6 (2018) 74.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1186/s40560-018-0343-3}
+  {\path{doi:https://doi.org/10.1186/s40560-018-0343-3}}.
+
+\bibitem{Pirracchio2015}
+R.~Pirracchio, M.~L. Petersen, M.~Carone, M.~R. Rigon, S.~Chevret, M.~J.
+  van~der LAAN, Mortality prediction in the icu: can we do better? results from
+  the super icu learner algorithm (sicula) project, a population-based study,
+  Lancet Respir Med 3~(1) (2015) 42–52.
+\newblock \href {http://dx.doi.org/10.1016/S2213-2600(14)70239-5}
+  {\path{doi:10.1016/S2213-2600(14)70239-5}}.
+
+\bibitem{Marafino2015}
+B.~J. Marafino, W.~J. Boscardin, R.~A. Dudley, Efficient and sparse feature
+  selection for biomedical text classification via the elastic net: Application
+  to icu risk stratification from nursing notes, Journal of Biomedical
+  Informatics 54 (2015) 114–120.
+\newblock \href {http://dx.doi.org/https://doi.org/10.1016/j.jbi.2015.02.003}
+  {\path{doi:https://doi.org/10.1016/j.jbi.2015.02.003}}.
+
+\bibitem{Grnarova2016}
+P.~Grnarova, F.~Schmidt, S.~L. Hyland, C.~Eickhoff, Neural document embeddings
+  for intensive care patient mortality prediction, in: arXiv. NIPS Workshop on
+  Machine Learning for Health (NIPS 2016), Barcelona, Spain, December 9, 2016.
+
+\end{thebibliography}

@@ -1,0 +1,343 @@
+
+% Template for Elsevier CRC journal article
+% version 1.1 dated 16 March 2010
+
+% This file (c) 2010 Elsevier Ltd.  Modifications may be freely made,
+% provided the edited file is saved under a different name
+
+% This file contains modifications for Procedia Computer Science
+% but may easily be adapted to other journals
+
+% Changes since version 1.0
+% - elsarticle class option changed from 1p to 3p (to better reflect CRC layout)
+
+%-----------------------------------------------------------------------------------
+
+%% This template uses the elsarticle.cls document class and the extension package ecrc.sty
+%% For full documentation on usage of elsarticle.cls, consult the documentation "elsdoc.pdf"
+%% Further resources available at http://www.elsevier.com/latex
+
+%-----------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                          %%
+%% Important note on usage                  %%
+%% -----------------------                  %%
+%% This file must be compiled with PDFLaTeX %%
+%% Using standard LaTeX will not work!      %%
+%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The '3p' and 'times' class options of elsarticle are used for Elsevier CRC
+\documentclass[3p,times]{elsarticle} %this is original one for 1 column
+%\documentclass[5p,times,twocolumn]{elsarticle}
+
+%% The `ecrc' package must be called to make the CRC functionality available
+%\usepackage{ecrc}
+
+%% The ecrc package defines commands needed for running heads and logos.
+%% For running heads, you can set the journal name, the volume, the starting page and the authors
+
+%% set the volume if you know. Otherwise `00'
+%\volume{00}
+
+%% set the starting page if not 1
+%\firstpage{1}
+
+%% Give the name of the journal
+%\journalname{Procedia Computer Science}
+
+%% Give the author list to appear in the running head
+%% Example \runauth{C.V. Radhakrishnan et al.}
+%\runauth{M. Z. Alam et al.}
+
+%% The choice of journal logo is determined by the \jid and \jnltitlelogo commands.
+%% A user-supplied logo with the name <\jid>logo.pdf will be inserted if present.
+%% e.g. if \jid{yspmi} the system will look for a file yspmilogo.pdf
+%% Otherwise the content of \jnltitlelogo will be set between horizontal lines as a default logo
+
+%% Give the abbreviation of the Journal.
+%\jid{procs}
+
+%% Give a short journal name for the dummy logo (if needed)
+%\jnltitlelogo{Procedia Computer Science}
+
+%% Hereafter the template follows `elsarticle'.
+%% For more details see the existing template files elsarticle-template-harv.tex and elsarticle-template-num.tex.
+
+%% Elsevier CRC generally uses a numbered reference style
+%% For this, the conventions of elsarticle-template-num.tex should be followed (included below)
+%% If using TeX, use the style file elsarticle-num.bst
+
+%% End of ecrc-specific commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+
+%% natbib.sty is loaded by default. However, natbib options can be
+%% provided with \biboptions{...} command. Following options are
+%% valid:
+
+%%   round  -  round parentheses are used (default)
+%%   square -  square brackets are used   [option]
+%%   curly  -  curly braces are used      {option}
+%%   angle  -  angle brackets are used    <option>
+%%   semicolon  -  multiple citations separated by semi-colon
+%%   colon  - same as semicolon, an earlier confusion
+%%   comma  -  separated by comma
+%%   numbers-  selects numerical citations
+%%   super  -  numerical citations as superscripts
+%%   sort   -  sorts multiple citations according to order in ref. list
+%%   sort&compress   -  like sort, but also compresses numerical citations
+%%   compress - compresses without sorting
+%%
+%% \biboptions{comma,round}
+
+% \biboptions{}
+
+% if you have landscape tables
+\usepackage[figuresright]{rotating}
+
+% put your own definitions here:
+%   \newcommand{\cZ}{\cal{Z}}
+%   \newtheorem{def}{Definition}[section]
+%   ...
+
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{xcolor-patch}
+\usepackage{setspace}
+\doublespacing
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+\usepackage{algorithmic, algorithm}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as the IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/pkg/algorithms
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/pkg/algorithmicx
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version and documentation can be obtained at:
+% http://www.ctan.org/pkg/url
+% Basically, \url{my_url_here}.
+
+% add words to TeX's hyphenation exception list
+%\hyphenation{author another created financial paper re-commend-ed Post-Script}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+% declarations for front matter
+
+%\doublespace
+\begin{document}
+	
+	\begin{frontmatter}
+		
+		%% Title, authors and addresses
+		
+		%% use the tnoteref command within \title for footnotes;
+		%% use the tnotetext command for the associated footnote;
+		%% use the fnref command within \author or \address for footnotes;
+		%% use the fntext command for the associated footnote;
+		%% use the corref command within \author for corresponding author footnotes;
+		%% use the cortext command for the associated footnote;
+		%% use the ead command for the email address,
+		%% and the form \ead[url] for the home page:
+		%%
+		%% \title{Title\tnoteref{label1}}
+		%% \tnotetext[label1]{}
+		%% \author{Name\corref{cor1}\fnref{label2}}
+		%% \ead{email address}
+		%% \ead[url]{home page}
+		%% \fntext[label2]{}
+		%% \cortext[cor1]{}
+		%% \address{Address\fnref{label3}}
+		%% \fntext[label3]{}
+		
+		%\dochead{}
+		%% Use \dochead if there is an article header, e.g. \dochead{Short communication}
+		
+		\title{Feature Ranking based Ensemble Classifiers for survivability prediction of ICU patients using Lab Test data}
+		%\tnotetext[mytitlenote]{Full document is available in on\href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}.}
+		
+		%% use optional labels to link authors explicitly to addresses:
+		%% \author[label1,label2]{<author name>}
+		%% \address[label1]{<address>}
+		%% \address[label2]{<address>}
+		
+		%% Group authors per affiliation:
+		%% include affiliations in footnotes:
+		\author[buetaddress]{Md. Zahangir Alam\fnref{myfootnote}}
+		\ead{zahangirbd@gmail.com}
+		
+		\author[uaeuaddress]{Mohammad M. Masud \corref{mycorrespondingauthor}}
+		\ead{m.masud@uaeu.ac.ae}
+        
+        \author[buetaddress]{M. Saifur Rahman}
+		\ead{mrahman@cse.buet.ac.bd}
+		
+		\author[uaeuaddress]{Muhsin Cheratta}
+		\ead{muhsin.j@uaeu.ac.ae}
+		
+		\author[buetaddress]{Muhammad Ali Nayeem\fnref{myfootnote}}			
+		\ead{ali\_nayeem@cse.buet.ac.bd}			
+					
+		\author[buetaddress]{M. Sohel Rahman}
+        \cortext[mycorrespondingauthor]{Corresponding author. E-mail: \url{m.masud@uaeu.ac.ae}}		
+        \ead{msrahman@cse.buet.ac.bd}
+		
+		%\address[buetaddress]{Department of Computer Science and Engineering (CSE), ECE Building, West Palashi, Bangladesh University of Engineering and Technology (BUET), Dhaka-1000, Bangladesh.}
+		
+		\address[buetaddress]{Department of CSE, BUET, ECE Building, West Palasi, Dhaka-1205, Bangladesh.}
+		\address[uaeuaddress]{College of Information Technology, United Arab Emirates University, Al Ain, UAE.}
+		\fntext[myfootnote]{Supported by an ICT (PhD) Fellowship}
+		
+		\begin{abstract}
+			Clinical decision support systems (CDSS) are getting significant attention in recent years for their role and impact on the improvement in quality, safety, efficiency, and effectiveness in the context of healthcare. Advanced data analytics enabled CDSS are found to perform more accurately and timely than traditional systems. In this domain, survival prediction or deterioration prediction of critical cared patients, such as intensive care unit (ICU) patients, is an active research area. Early deterioration prediction can help health care providers to take proper and timely actions for the patients. The research works in this area are mostly based on the vital signs. Very few studies are available on survival prediction using lab tests data. Although some research works have made some advancement in this area, the accuracy is still suffering and is not satisfactory. \textcolor{blue}{Hence, the main goal of the current research work is to provide a technique to improve the accuracy and efficiency of survival prediction using lab test data.} We propose a feature ranking based ensemble of classifiers for survival prediction of ICU patients using lab test data. In the proposed approach, features are evaluated first and subsets of `useful' features are selected. Subsequently, training data with the selected features are clustered using a novel feature vector compaction (FVC) technique. Finally, ensemble classifier models are trained. Extensive experiments in more than 3000 different settings on 6 datasets of ICU patients have been conducted to evaluate the efficacy of our approach. The experimental results demonstrate that this technique outperforms other approaches. 
+		\end{abstract}
+		
+		\begin{keyword}
+			%% keywords here, in the form: keyword \sep keyword
+			
+			%% MSC codes here, in the form: \MSC code \sep code
+			%% or \MSC[2008] code \sep code (2000 is the default)
+			
+			%%\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+			%%\MSC[2010] 00-01\sep  99-00
+			
+			ICU Patients\sep Mortality Prediction\sep  Feature Ranking \sep Feature Vector Compaction\sep  Feature Grouping\sep  Lab Test Data\sep Clinical Prediction\sep Clustering \sep Clinical decision support
+			
+		\end{keyword}
+		
+	\end{frontmatter}
+	
+	%%
+	%% Start line numbering here if you want
+	%%
+	% \linenumbers
+	
+	%% main text
+	
+    \input{introduction-some-update-from-sohel-sir}
+	\input{related-short}
+    \input{methods}
+	\input{experiments}	
+	\input{results}	
+	\input{discussions}
+	\input{conclusion}
+	
+	%% The Appendices part is started with the command \appendix;
+	%% appendix sections are then done as normal sections
+	%% \appendix
+	
+	%\appendix
+%	\section{Orthogonal Clustering} \label{sec:appendices}
+%	Appendix one text goes here.
+%	
+	% you can choose not to have a title for an appendix
+	% if you want by leaving the argument blank
+%	\section{Appendix two}
+%	Appendix two text goes here.
+	
+	\section*{Supplementary materials:}
+	\textcolor{blue}{\textit{ecrc-paper-Suppl.pdf} file contains all supplementary materials.}
+	
+	\section*{Acknowledgements}
+	The first author is supported by an ICT Fellowship administered by ICT Division, Government of the People's Republic of Bangladesh, website: \url{http://www.ictd.gov.bd/}. \textcolor{blue}{This work was also supported in part by ADEK Award for Research Excellence (AARE) Award
+	No: AARE17-182}
+	
+
+	%% \section{}
+	%% \label{}
+	
+	%% References
+	%%
+	%% Following citation commands can be used in the body text:
+	%% Usage of \cite is as follows:
+	%%   \cite{key}         ==>>  [#]
+	%%   \cite[chap. 2]{key} ==>> [#, chap. 2]
+	%%
+	
+	%% References with BibTeX database:
+	
+	%%%%%%%%%%%%%%%%%%%%%%%
+	%% Elsevier bibliography styles
+	%%%%%%%%%%%%%%%%%%%%%%%
+	%% To change the style, put a % in front of the second line of the current style and
+	%% remove the % from the second line of the style you would like to use.
+	%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%% Numbered
+	%\bibliographystyle{model1-num-names}
+	
+	%% Numbered without titles
+	%\bibliographystyle{model1a-num-names}
+	
+	%% Harvard
+	%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+	
+	%% Vancouver numbered
+	%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+	
+	%% Vancouver name/year
+	%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+	
+	%% APA style
+	%\bibliographystyle{model5-names}\biboptions{authoryear}
+	
+	%% AMA style
+	%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+	
+	%% `Elsevier LaTeX' style
+	\bibliographystyle{elsarticle-num}
+	%%%%%%%%%%%%%%%%%%%%%%%
+	\bibliography{mybibfile}
+	
+	%% Authors are advised to use a BibTeX database file for their reference list.
+	%% The provided style file elsarticle-num.bst formats references in the required Procedia style
+	
+	%% For references without a BibTeX database:
+	
+	% \begin{thebibliography}{00}
+	
+	%% \bibitem must have the following form:
+	%%   \bibitem{key}...
+	%%
+	
+	% \bibitem{}
+	
+	% \end{thebibliography}
+	
+	%\input{experimenttables}
+	
+\end{document}
+
+%%
+%% End of file `ecrc-template.tex'. 
